@@ -79,12 +79,8 @@ def main():
     st.sidebar.write("Adjust the specs and see the predicted price in real-time.")
 
     # Team Members
-    with st.sidebar.expander("Team Members"):
-        st.write("- Abhivav K")
+    with st.sidebar("Developer"):
         st.write("- Devaj TN")
-        st.write("- George Pramod Thomas")
-        st.write("- Razik Rahman M S")
-        st.write("- Sahil Shahanas")
 
     # ========== TOP IMAGES ==========
     col_banner1, col_banner2 = st.columns([2, 1])
@@ -192,3 +188,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
