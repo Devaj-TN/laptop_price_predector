@@ -79,7 +79,7 @@ def main():
     st.sidebar.write("Adjust the specs and see the predicted price in real-time.")
 
     # Team Members
-    with st.sidebar("Developer"):
+    with st.sidebar.expander("Developer"):
         st.write("- Devaj TN")
 
     # ========== TOP IMAGES ==========
@@ -188,4 +188,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
